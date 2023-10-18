@@ -57,7 +57,7 @@ function DashboardCard07() {
                 <div className='flex justify-between pt-2'>
                     <h2 className="font-semibold text-slate-800 dark:text-slate-100">Product Sell</h2>
                     <div className='flex gap-4'>
-                        <div className='relative'>
+                        <div className='relative flex sm:flex-col'>
                             <HiOutlineSearch fontSize={20} className='text-gray-400 absolute top-1/2 -translate-y-1/2 left-3' />
                             <input type='search' placeholder=' Search...' className='text-sm focus:outline-none active:outline-none h-9 w-[10rem] border border-gray-300 rounded-lg pl-11 pr-4 ' />
                         </div>

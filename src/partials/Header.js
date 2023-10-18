@@ -27,7 +27,7 @@ function Header({ sidebarOpen, setSidebarOpen }) {
                             </svg>
                         </button>
                         <div>
-                            <strong>Hello Arjun👋,</strong>
+                            <strong className='sm:col-span-1 xl:col-span-1 sm:text-sm'>Hello Arjun👋,</strong>
                         </div>
                     </div>
 
@@ -35,7 +35,7 @@ function Header({ sidebarOpen, setSidebarOpen }) {
                     <div className="flex items-center space-x-3">
                         <div className='relative'>
                             <HiOutlineSearch fontSize={20} className='text-gray-400 absolute top-1/2 -translate-y-1/2 left-3' />
-                            <input type='search' placeholder=' Search...' className='text-sm focus:outline-none active:outline-none h-9 w-[18rem] border border-gray-300 rounded-lg pl-11 pr-4 ' />
+                            <input type='search' placeholder=' Search...' className='text-sm focus:outline-none active:outline-none sm:col-span-6 xl:col-span-3 border border-gray-300 rounded-lg pl-11 pr-4 ' />
                         </div>
                     </div>
                 </div>
